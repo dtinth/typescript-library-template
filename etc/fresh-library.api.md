@@ -6,7 +6,7 @@
 
 // @public
 export class FreshLibrary {
-    add(a: number, b: number): number;
+    addition(a: number, b: number): number;
 }
 
 ```

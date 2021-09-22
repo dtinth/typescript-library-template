@@ -16,5 +16,5 @@ export declare class FreshLibrary
 
 |  Method | Modifiers | Description |
 |  --- | --- | --- |
-|  [add(a, b)](./fresh-library.freshlibrary.add.md) |  | Adds two numbers together. |
+|  [addition(a, b)](./fresh-library.freshlibrary.addition.md) |  | Adds two numbers together. |
 
