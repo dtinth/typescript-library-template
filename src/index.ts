@@ -14,7 +14,7 @@ export class FreshLibrary {
    * @param b - The second number.
    * @returns The sum of two numbers.
    */
-  addition ( a: number, b: number ) {
+  addition(a: number, b: number) {
     return a + b
   }
 }
