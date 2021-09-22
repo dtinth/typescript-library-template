@@ -5,12 +5,14 @@ specifiers:
   '@rushstack/heft': ^0.39.0
   '@rushstack/heft-web-rig': ^0.4.15
   '@types/heft-jest': ^1.0.2
+  prettier: ^2.4.1
 
 devDependencies:
   '@microsoft/api-documenter': 7.13.52
   '@rushstack/heft': 0.39.0
   '@rushstack/heft-web-rig': 0.4.15_@rushstack+heft@0.39.0
   '@types/heft-jest': 1.0.2
+  prettier: 2.4.1
 
 packages:
 
@@ -5574,6 +5576,12 @@ packages:
 
   /prettier/2.3.2:
     resolution: {integrity: sha512-lnJzDfJ66zkMy58OL5/NY5zp70S7Nz6KqcKkXYzn2tMVrNxvbqaBpg7H3qHaLxCJ5lNMsGuM8+ohS7cZrthdLQ==}
+    engines: {node: '>=10.13.0'}
+    hasBin: true
+    dev: true
+
+  /prettier/2.4.1:
+    resolution: {integrity: sha512-9fbDAXSBcc6Bs1mZrDYb3XKzDLm4EXXL9sC1LqKP5rZkT6KRr/rf9amVUcODVXgguK/isJz0d0hP72WeaKWsvA==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true

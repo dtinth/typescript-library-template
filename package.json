@@ -12,14 +12,15 @@
   ],
   "scripts": {
     "build": "heft build",
-    "test": "heft test",
+    "docs": "api-documenter markdown --input temp --output docs/api",
     "prepare": "heft build",
-    "docs": "api-documenter markdown --input temp --output docs/api"
+    "test": "heft test"
   },
   "devDependencies": {
     "@microsoft/api-documenter": "^7.13.52",
     "@rushstack/heft": "^0.39.0",
     "@rushstack/heft-web-rig": "^0.4.15",
-    "@types/heft-jest": "^1.0.2"
+    "@types/heft-jest": "^1.0.2",
+    "prettier": "^2.4.1"
   }
 }
