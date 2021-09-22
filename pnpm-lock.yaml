@@ -1,11 +1,13 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@microsoft/api-documenter': ^7.13.52
   '@rushstack/heft': ^0.39.0
   '@rushstack/heft-web-rig': ^0.4.15
   '@types/heft-jest': ^1.0.2
 
 devDependencies:
+  '@microsoft/api-documenter': 7.13.52
   '@rushstack/heft': 0.39.0
   '@rushstack/heft-web-rig': 0.4.15_@rushstack+heft@0.39.0
   '@types/heft-jest': 1.0.2
@@ -610,6 +612,19 @@ packages:
       '@types/node': 16.9.6
       '@types/yargs': 16.0.4
       chalk: 4.1.2
+    dev: true
+
+  /@microsoft/api-documenter/7.13.52:
+    resolution: {integrity: sha512-d9bc8IQb+UmEHBSa71efLcg4N9VjFfx+noGNManYCG8XE+60+vPVX4DozLxY5OlQfT/cZVlFwnQEQgWDconORQ==}
+    hasBin: true
+    dependencies:
+      '@microsoft/api-extractor-model': 7.13.7
+      '@microsoft/tsdoc': 0.13.2
+      '@rushstack/node-core-library': 3.40.2
+      '@rushstack/ts-command-line': 4.9.0
+      colors: 1.2.5
+      js-yaml: 3.13.1
+      resolve: 1.17.0
     dev: true
 
   /@microsoft/api-extractor-model/7.13.7:
@@ -4355,6 +4370,14 @@ packages:
 
   /js-tokens/4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
+    dev: true
+
+  /js-yaml/3.13.1:
+    resolution: {integrity: sha512-YfbcO7jXDdyj0DGxYVSlSeQNHbD7XPWvrVWeVUujrQEoZzWJIRrCPoyk6kL6IAjAG2IolMK4T0hNUe0HOUs5Jw==}
+    hasBin: true
+    dependencies:
+      argparse: 1.0.10
+      esprima: 4.0.1
     dev: true
 
   /js-yaml/3.14.1:
