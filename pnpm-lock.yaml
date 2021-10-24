@@ -75,7 +75,7 @@ packages:
       '@babel/compat-data': 7.15.0
       '@babel/core': 7.15.8
       '@babel/helper-validator-option': 7.14.5
-      browserslist: 4.17.4
+      browserslist: 4.17.5
       semver: 6.3.0
     dev: true
 
@@ -1666,13 +1666,13 @@ packages:
       pako: 1.0.11
     dev: true
 
-  /browserslist/4.17.4:
-    resolution: {integrity: sha512-Zg7RpbZpIJRW3am9Lyckue7PLytvVxxhJj1CaJVlCWENsGEAOlnlt8X0ZxGRPp7Bt9o8tIRM5SEXy4BCPMJjLQ==}
+  /browserslist/4.17.5:
+    resolution: {integrity: sha512-I3ekeB92mmpctWBoLXe0d5wPS2cBuRvvW0JyyJHMrk9/HmP2ZjrTboNAZ8iuGqaEIlKguljbQY32OkOJIRrgoA==}
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001271
-      electron-to-chromium: 1.3.877
+      electron-to-chromium: 1.3.878
       escalade: 3.1.1
       node-releases: 2.0.1
       picocolors: 1.0.0
@@ -2458,8 +2458,8 @@ packages:
     resolution: {integrity: sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=}
     dev: true
 
-  /electron-to-chromium/1.3.877:
-    resolution: {integrity: sha512-fT5mW5Giw5iyVukeHb2XvB4joBKvzHtl8Vs3QzE7APATpFMt/T7RWyUcIKSZzYkKQgpMbu+vDBTCHfQZvh8klA==}
+  /electron-to-chromium/1.3.878:
+    resolution: {integrity: sha512-O6yxWCN9ph2AdspAIszBnd9v8s11hQx8ub9w4UGApzmNRnoKhbulOWqbO8THEQec/aEHtvy+donHZMlh6l1rbA==}
     dev: true
 
   /elliptic/6.5.4:
@@ -4113,7 +4113,7 @@ packages:
       jest-worker: 25.5.0
       micromatch: 4.0.4
       sane: 4.1.0
-      walker: 1.0.7
+      walker: 1.0.8
       which: 2.0.2
     optionalDependencies:
       fsevents: 2.3.2
@@ -4704,8 +4704,8 @@ packages:
       semver: 6.3.0
     dev: true
 
-  /makeerror/1.0.11:
-    resolution: {integrity: sha1-4BpckQnyr3lmDk6LlYd5AYT1qWw=}
+  /makeerror/1.0.12:
+    resolution: {integrity: sha512-JmqCvUhmt43madlpFzG4BQzG2Z3m6tvQDNKdClZnO3VbIudJYmxsT0FNJMeiB2+JTSlTQTSbU8QdesVmwJcmLg==}
     dependencies:
       tmpl: 1.0.5
     dev: true
@@ -6109,7 +6109,7 @@ packages:
       fb-watchman: 2.0.1
       micromatch: 3.1.10
       minimist: 1.2.5
-      walker: 1.0.7
+      walker: 1.0.8
     dev: true
 
   /sass-graph/2.2.5:
@@ -7123,10 +7123,10 @@ packages:
       xml-name-validator: 3.0.0
     dev: true
 
-  /walker/1.0.7:
-    resolution: {integrity: sha1-L3+bj9ENZ3JisYqITijRlhjgKPs=}
+  /walker/1.0.8:
+    resolution: {integrity: sha512-ts/8E8l5b7kY0vlWLewOkDXMmPdLcVV4GmOQLyxuSswIJsweeFZtAsMF7k1Nszz+TYBQrlYRmzOnr398y1JemQ==}
     dependencies:
-      makeerror: 1.0.11
+      makeerror: 1.0.12
     dev: true
 
   /watchpack-chokidar2/2.0.1:
