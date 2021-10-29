@@ -17,9 +17,9 @@
     "test": "heft test"
   },
   "devDependencies": {
-    "@microsoft/api-documenter": "^7.13.64",
-    "@rushstack/heft": "^0.41.8",
-    "@rushstack/heft-web-rig": "^0.4.27",
+    "@microsoft/api-documenter": "^7.13.65",
+    "@rushstack/heft": "^0.42.0",
+    "@rushstack/heft-web-rig": "^0.4.29",
     "@types/heft-jest": "^1.0.2",
     "prettier": "^2.4.1"
   }
