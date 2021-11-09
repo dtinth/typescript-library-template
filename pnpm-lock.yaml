@@ -611,7 +611,7 @@ packages:
     dependencies:
       '@types/istanbul-lib-coverage': 2.0.3
       '@types/istanbul-reports': 3.0.1
-      '@types/node': 16.11.6
+      '@types/node': 16.11.7
       '@types/yargs': 16.0.4
       chalk: 4.1.2
     dev: true
@@ -762,7 +762,7 @@ packages:
       '@rushstack/heft': 0.42.2
       '@rushstack/node-core-library': 3.43.2
       webpack: 4.44.2
-      webpack-dev-server: 3.11.2_webpack@4.44.2
+      webpack-dev-server: 3.11.3_webpack@4.44.2
     transitivePeerDependencies:
       - webpack-cli
       - webpack-command
@@ -872,13 +872,13 @@ packages:
     resolution: {integrity: sha512-ZUxbzKl0IfJILTS6t7ip5fQQM/J3TJYubDm3nMbgubNNYS62eXeUpoLUC8/7fJNiFYHTrGPQn7hspDUzIHX3UA==}
     dependencies:
       '@types/minimatch': 3.0.5
-      '@types/node': 16.11.6
+      '@types/node': 16.11.7
     dev: true
 
   /@types/graceful-fs/4.1.5:
     resolution: {integrity: sha512-anKkLmZZ+xm4p8JWBf4hElkM4XR+EZeA2M9BAkkTldmcyDY4mbdIJnRghDJH3Ov5ooY7/UAoENtmdMSkaAd7Cw==}
     dependencies:
-      '@types/node': 16.11.6
+      '@types/node': 16.11.7
     dev: true
 
   /@types/heft-jest/1.0.2:
@@ -929,8 +929,8 @@ packages:
     resolution: {integrity: sha512-yxDeaQIAJlMav7fH5AQqPH1u8YIuhYJXYBzxaQ4PifsU0GDO38MSdmEDeRlIxrKbC6NbEaaEHDanWb+y30U8SQ==}
     dev: true
 
-  /@types/node/16.11.6:
-    resolution: {integrity: sha512-ua7PgUoeQFjmWPcoo9khiPum3Pd60k4/2ZGXt18sm2Slk0W0xZTqt5Y0Ny1NyBiN1EVQ/+FaF9NcY4Qe6rwk5w==}
+  /@types/node/16.11.7:
+    resolution: {integrity: sha512-QB5D2sqfSjCmTuWcBWyJ+/44bcjO7VbjSbOE0ucoVbAsSNQc4Lt6QkgkVXkTDwkL4z/beecZNDvVX15D4P8Jbw==}
     dev: true
 
   /@types/normalize-package-data/2.4.1:
@@ -1173,8 +1173,8 @@ packages:
       uri-js: 4.4.1
     dev: true
 
-  /ajv/8.6.3:
-    resolution: {integrity: sha512-SMJOdDP6LqTkD0Uq8qLi+gMwSt0imXLSV080qFVwJCpH9U6Mb+SUGHAXM0KNbcBPguytWyvFxcHgMLe2D2XSpw==}
+  /ajv/8.7.1:
+    resolution: {integrity: sha512-gPpOObTO1QjbnN1sVMjJcp1TF9nggMfO4MBR5uQl6ZVTOaEPq5i4oq/6R9q2alMMPB3eg53wFv1RuJBLuxf3Hw==}
     dependencies:
       fast-deep-equal: 3.1.3
       json-schema-traverse: 1.0.0
@@ -1204,8 +1204,8 @@ packages:
       type-fest: 0.21.3
     dev: true
 
-  /ansi-html/0.0.7:
-    resolution: {integrity: sha1-gTWEAhliqenm/QOflA0S9WynhZ4=}
+  /ansi-html-community/0.0.8:
+    resolution: {integrity: sha512-1APHAyr3+PCamwNw3bXCPp4HFLONZt/yIH0sZp0/469KWNTEy+qN5jQ3GVX6DMZ1UXAi34yVwtTeaG/HpBuuzw==}
     engines: {'0': node >= 0.8.0}
     hasBin: true
     dev: true
@@ -1676,7 +1676,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001278
-      electron-to-chromium: 1.3.890
+      electron-to-chromium: 1.3.891
       escalade: 3.1.1
       node-releases: 2.0.1
       picocolors: 1.0.0
@@ -2459,8 +2459,8 @@ packages:
     resolution: {integrity: sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=}
     dev: true
 
-  /electron-to-chromium/1.3.890:
-    resolution: {integrity: sha512-VWlVXSkv0cA/OOehrEyqjUTHwV8YXCPTfPvbtoeU2aHR21vI4Ejh5aC4AxUwOmbLbBgb6Gd3URZahoCxtBqCYQ==}
+  /electron-to-chromium/1.3.891:
+    resolution: {integrity: sha512-3cpwR82QkIS01CN/dup/4Yr3BiOiRLlZlcAFn/5FbNCunMO9ojqDgEP9JEo1QNLflu3pEnPWve50gHOEKc7r6w==}
     dev: true
 
   /elliptic/6.5.4:
@@ -6655,7 +6655,7 @@ packages:
     resolution: {integrity: sha512-5DkIxeA7XERBqMwJq0aHZOdMadBx4e6eDoFRuyT5VR82J0Ycg2DwM6GfA/EQAhJ+toRTaS1lIdSQCqgrmhPnlw==}
     engines: {node: '>=10.0.0'}
     dependencies:
-      ajv: 8.6.3
+      ajv: 8.7.1
       lodash.truncate: 4.4.2
       slice-ansi: 4.0.0
       string-width: 4.2.3
@@ -7131,8 +7131,8 @@ packages:
       webpack-log: 2.0.0
     dev: true
 
-  /webpack-dev-server/3.11.2_webpack@4.44.2:
-    resolution: {integrity: sha512-A80BkuHRQfCiNtGBS1EMf2ChTUs0x+B3wGDFmOeT4rmJOHhHTCH2naNxIHhmkr0/UillP4U3yeIyv1pNp+QDLQ==}
+  /webpack-dev-server/3.11.3_webpack@4.44.2:
+    resolution: {integrity: sha512-3x31rjbEQWKMNzacUZRE6wXvUFuGpH7vr0lIEbYpMAG9BOxi0928QU1BBswOAP3kg3H1O4hiS+sq4YyAn6ANnA==}
     engines: {node: '>= 6.11.5'}
     hasBin: true
     peerDependencies:
@@ -7142,7 +7142,7 @@ packages:
       webpack-cli:
         optional: true
     dependencies:
-      ansi-html: 0.0.7
+      ansi-html-community: 0.0.8
       bonjour: 3.5.0
       chokidar: 2.1.8
       compression: 1.7.4
