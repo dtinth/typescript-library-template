@@ -75,7 +75,7 @@ packages:
       '@babel/compat-data': 7.16.0
       '@babel/core': 7.16.0
       '@babel/helper-validator-option': 7.14.5
-      browserslist: 4.17.6
+      browserslist: 4.18.0
       semver: 6.3.0
     dev: true
 
@@ -1670,8 +1670,8 @@ packages:
       pako: 1.0.11
     dev: true
 
-  /browserslist/4.17.6:
-    resolution: {integrity: sha512-uPgz3vyRTlEiCv4ee9KlsKgo2V6qPk7Jsn0KAn2OBqbqKo3iNcPEC1Ti6J4dwnz+aIRfEEEuOzC9IBk8tXUomw==}
+  /browserslist/4.18.0:
+    resolution: {integrity: sha512-ER2M0g5iAR84fS/zjBDqEgU6iO5fS9JI2EkHr5zxDxYEFk3LjhU9Vpp/INb6RMQphxko7PDV1FH38H/qVP5yCA==}
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
@@ -6366,7 +6366,7 @@ packages:
     resolution: {integrity: sha512-cOYcUWwhCuHCXi49RhFRCyJEK3iPj1Ziz9DpViV3tbZOwXD49QzIN3MpOLJNxh2qwq2lJJZaKMVw9qNi4jTC0w==}
     dependencies:
       spdx-expression-parse: 3.0.1
-      spdx-license-ids: 3.0.10
+      spdx-license-ids: 3.0.11
     dev: true
 
   /spdx-exceptions/2.3.0:
@@ -6377,11 +6377,11 @@ packages:
     resolution: {integrity: sha512-cbqHunsQWnJNE6KhVSMsMeH5H/L9EpymbzqTQ3uLwNCLZ1Q481oWaofqH7nO6V07xlXwY6PhQdQ2IedWx/ZK4Q==}
     dependencies:
       spdx-exceptions: 2.3.0
-      spdx-license-ids: 3.0.10
+      spdx-license-ids: 3.0.11
     dev: true
 
-  /spdx-license-ids/3.0.10:
-    resolution: {integrity: sha512-oie3/+gKf7QtpitB0LYLETe+k8SifzsX4KixvpOsbI6S0kRiRQ5MKOio8eMSAKQ17N06+wdEOXRiId+zOxo0hA==}
+  /spdx-license-ids/3.0.11:
+    resolution: {integrity: sha512-Ctl2BrFiM0X3MANYgj3CkygxhRmr9mi6xhejbdO960nF6EDJApTYpn0BQnDKlnNBULKiCN1n3w9EBkHK8ZWg+g==}
     dev: true
 
   /spdy-transport/3.0.0_supports-color@6.1.0:
