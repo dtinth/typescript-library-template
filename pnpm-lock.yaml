@@ -611,7 +611,7 @@ packages:
     dependencies:
       '@types/istanbul-lib-coverage': 2.0.3
       '@types/istanbul-reports': 3.0.1
-      '@types/node': 16.11.8
+      '@types/node': 16.11.9
       '@types/yargs': 16.0.4
       chalk: 4.1.2
     dev: true
@@ -872,13 +872,13 @@ packages:
     resolution: {integrity: sha512-ZUxbzKl0IfJILTS6t7ip5fQQM/J3TJYubDm3nMbgubNNYS62eXeUpoLUC8/7fJNiFYHTrGPQn7hspDUzIHX3UA==}
     dependencies:
       '@types/minimatch': 3.0.5
-      '@types/node': 16.11.8
+      '@types/node': 16.11.9
     dev: true
 
   /@types/graceful-fs/4.1.5:
     resolution: {integrity: sha512-anKkLmZZ+xm4p8JWBf4hElkM4XR+EZeA2M9BAkkTldmcyDY4mbdIJnRghDJH3Ov5ooY7/UAoENtmdMSkaAd7Cw==}
     dependencies:
-      '@types/node': 16.11.8
+      '@types/node': 16.11.9
     dev: true
 
   /@types/heft-jest/1.0.2:
@@ -929,8 +929,8 @@ packages:
     resolution: {integrity: sha512-yxDeaQIAJlMav7fH5AQqPH1u8YIuhYJXYBzxaQ4PifsU0GDO38MSdmEDeRlIxrKbC6NbEaaEHDanWb+y30U8SQ==}
     dev: true
 
-  /@types/node/16.11.8:
-    resolution: {integrity: sha512-hmT5gfpRkkHr7DZZHMf3jBe/zNcVGN+jXSL2f8nAsYfBPxQFToKwQlS/zES4Sjp488Bi73i+p6bvrNRRGU0x9Q==}
+  /@types/node/16.11.9:
+    resolution: {integrity: sha512-MKmdASMf3LtPzwLyRrFjtFFZ48cMf8jmX5VRYrDQiJa8Ybu5VAmkqBWqKU8fdCwD8ysw4mQ9nrEHvzg6gunR7A==}
     dev: true
 
   /@types/normalize-package-data/2.4.1:
@@ -1676,7 +1676,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001282
-      electron-to-chromium: 1.3.902
+      electron-to-chromium: 1.3.903
       escalade: 3.1.1
       node-releases: 2.0.1
       picocolors: 1.0.0
@@ -2459,8 +2459,8 @@ packages:
     resolution: {integrity: sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=}
     dev: true
 
-  /electron-to-chromium/1.3.902:
-    resolution: {integrity: sha512-zFv5jbtyIr+V9FuT9o439isXbkXQ27mJqZfLXpBKzXugWE8+3RotHbXJlli0/r+Rvdlkut0OOMzeOWLAjH0jCw==}
+  /electron-to-chromium/1.3.903:
+    resolution: {integrity: sha512-+PnYAyniRRTkNq56cqYDLq9LyklZYk0hqoDy9GpcU11H5QjRmFZVDbxtgHUMK/YzdNTcn1XWP5gb+hFlSCr20g==}
     dev: true
 
   /elliptic/6.5.4:
@@ -4247,7 +4247,7 @@ packages:
       jest-runtime: 25.5.4
       jest-util: 25.5.0
       jest-worker: 25.5.0
-      source-map-support: 0.5.20
+      source-map-support: 0.5.21
       throat: 5.0.0
     transitivePeerDependencies:
       - bufferutil
@@ -6329,8 +6329,8 @@ packages:
       urix: 0.1.0
     dev: true
 
-  /source-map-support/0.5.20:
-    resolution: {integrity: sha512-n1lZZ8Ve4ksRqizaBQgxXDgKwttHDhyfQjA6YZZn8+AroHbsIz+JjwxQDxbp+7y5OYCI8t1Yk7etjD9CRd2hIw==}
+  /source-map-support/0.5.21:
+    resolution: {integrity: sha512-uBHU3L3czsIyYXKX88fdrGovxdSCoTGDRZ6SYXtSRxLZUzHg5P/66Ht6uoUlHu9EZod+inXhKo3qQgwXUT/y1w==}
     dependencies:
       buffer-from: 1.1.2
       source-map: 0.6.1
@@ -6712,7 +6712,7 @@ packages:
     dependencies:
       commander: 2.20.3
       source-map: 0.6.1
-      source-map-support: 0.5.20
+      source-map-support: 0.5.21
     dev: true
 
   /test-exclude/6.0.0:
