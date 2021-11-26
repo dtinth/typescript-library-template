@@ -5,14 +5,14 @@ specifiers:
   '@rushstack/heft': ^0.42.2
   '@rushstack/heft-web-rig': ^0.4.31
   '@types/heft-jest': ^1.0.2
-  prettier: ^2.4.1
+  prettier: ^2.5.0
 
 devDependencies:
   '@microsoft/api-documenter': 7.13.68
   '@rushstack/heft': 0.42.2
   '@rushstack/heft-web-rig': 0.4.31_@rushstack+heft@0.42.2
   '@types/heft-jest': 1.0.2
-  prettier: 2.4.1
+  prettier: 2.5.0
 
 packages:
 
@@ -1675,8 +1675,8 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001282
-      electron-to-chromium: 1.4.0
+      caniuse-lite: 1.0.30001283
+      electron-to-chromium: 1.4.2
       escalade: 3.1.1
       node-releases: 2.0.1
       picocolors: 1.0.0
@@ -1783,8 +1783,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /caniuse-lite/1.0.30001282:
-    resolution: {integrity: sha512-YhF/hG6nqBEllymSIjLtR2iWDDnChvhnVJqp+vloyt2tEHFG1yBR+ac2B/rOw0qOK0m0lEXU2dv4E/sMk5P9Kg==}
+  /caniuse-lite/1.0.30001283:
+    resolution: {integrity: sha512-9RoKo841j1GQFSJz/nCXOj0sD7tHBtlowjYlrqIUS812x9/emfBLBt6IyMz1zIaYc/eRL8Cs6HPUVi2Hzq4sIg==}
     dev: true
 
   /capture-exit/2.0.0:
@@ -2459,8 +2459,8 @@ packages:
     resolution: {integrity: sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=}
     dev: true
 
-  /electron-to-chromium/1.4.0:
-    resolution: {integrity: sha512-+oXCt6SaIu8EmFTPx8wNGSB0tHQ5biDscnlf6Uxuz17e9CjzMRtGk9B8705aMPnj0iWr3iC74WuIkngCsLElmA==}
+  /electron-to-chromium/1.4.2:
+    resolution: {integrity: sha512-SxHMmlSvpT83M/MLxTXQBqfqo3bK+UOk6Uup6w1paX86l+af1xwwTMLlyK3xJwE3Kq8/QnecuFKmnmRlAUJCXw==}
     dev: true
 
   /elliptic/6.5.4:
@@ -5581,8 +5581,8 @@ packages:
     hasBin: true
     dev: true
 
-  /prettier/2.4.1:
-    resolution: {integrity: sha512-9fbDAXSBcc6Bs1mZrDYb3XKzDLm4EXXL9sC1LqKP5rZkT6KRr/rf9amVUcODVXgguK/isJz0d0hP72WeaKWsvA==}
+  /prettier/2.5.0:
+    resolution: {integrity: sha512-FM/zAKgWTxj40rH03VxzIPdXmj39SwSjwG0heUcNFwI+EMZJnY93yAiKXM3dObIKAM5TA88werc8T/EwhB45eg==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
