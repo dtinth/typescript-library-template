@@ -1676,7 +1676,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001283
-      electron-to-chromium: 1.4.2
+      electron-to-chromium: 1.4.4
       escalade: 3.1.1
       node-releases: 2.0.1
       picocolors: 1.0.0
@@ -2459,8 +2459,8 @@ packages:
     resolution: {integrity: sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=}
     dev: true
 
-  /electron-to-chromium/1.4.2:
-    resolution: {integrity: sha512-SxHMmlSvpT83M/MLxTXQBqfqo3bK+UOk6Uup6w1paX86l+af1xwwTMLlyK3xJwE3Kq8/QnecuFKmnmRlAUJCXw==}
+  /electron-to-chromium/1.4.4:
+    resolution: {integrity: sha512-teHtgwcmVcL46jlFvAaqjyiTLWuMrUQO1JqV303JKB4ysXG6m8fXSFhbjal9st0r9mNskI22AraJZorb1VcLVg==}
     dev: true
 
   /elliptic/6.5.4:
@@ -3482,8 +3482,8 @@ packages:
       toidentifier: 1.0.0
     dev: true
 
-  /http-parser-js/0.5.3:
-    resolution: {integrity: sha512-t7hjvef/5HEK7RWTdUzVUhl8zkEu+LlaE0IYzdMuvbSDipxBRpOn4Uhw8ZyECEa808iVT8XCjzo6xmYt4CiLZg==}
+  /http-parser-js/0.5.4:
+    resolution: {integrity: sha512-Qn1yyi10ipcylSSqlTFsj7bhimACWbFm5w5JNMxhLKfcJAeWFBc+/VBv4mu5qlWSKr0cjXqtwM6HISZkESUILA==}
     dev: true
 
   /http-proxy-middleware/0.19.1_debug@4.3.2:
@@ -7235,7 +7235,7 @@ packages:
     resolution: {integrity: sha512-b17KeDIQVjvb0ssuSDF2cYXSg2iztliJ4B9WdsuB6J952qCPKmnVq4DyW5motImXHDC1cBT/1UezrJVsKw5zjg==}
     engines: {node: '>=0.8.0'}
     dependencies:
-      http-parser-js: 0.5.3
+      http-parser-js: 0.5.4
       safe-buffer: 5.2.1
       websocket-extensions: 0.1.4
     dev: true
