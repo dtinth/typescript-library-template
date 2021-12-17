@@ -1632,8 +1632,8 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001286
-      electron-to-chromium: 1.4.19
+      caniuse-lite: 1.0.30001287
+      electron-to-chromium: 1.4.21
       escalade: 3.1.1
       node-releases: 2.0.1
       picocolors: 1.0.0
@@ -1745,8 +1745,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /caniuse-lite/1.0.30001286:
-    resolution: {integrity: sha512-zaEMRH6xg8ESMi2eQ3R4eZ5qw/hJiVsO/HlLwniIwErij0JDr9P+8V4dtx1l+kLq6j3yy8l8W4fst1lBnat5wQ==}
+  /caniuse-lite/1.0.30001287:
+    resolution: {integrity: sha512-4udbs9bc0hfNrcje++AxBuc6PfLNHwh3PO9kbwnfCQWyqtlzg3py0YgFu8jyRTTo85VAz4U+VLxSlID09vNtWA==}
     dev: true
 
   /caseless/0.12.0:
@@ -2420,8 +2420,8 @@ packages:
     resolution: {integrity: sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=}
     dev: true
 
-  /electron-to-chromium/1.4.19:
-    resolution: {integrity: sha512-TeAjwsC/vhvxEtX/xN1JQUMkl+UrwKXlB4rwLyuLYVuBuRtqJJrU4Jy5pCVihMQg4m1ceZ3MEJ0yYuxHj8vC+w==}
+  /electron-to-chromium/1.4.21:
+    resolution: {integrity: sha512-T04U2ciApGbm+dESFEBbewi2Xt0Dgyww8M4n4sOt9lnmFuYbaHEDWCROkx4jvAZDUWWry9YOdnAs+7468q80Qg==}
     dev: true
 
   /elliptic/6.5.4:
