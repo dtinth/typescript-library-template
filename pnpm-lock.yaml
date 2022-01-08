@@ -748,7 +748,7 @@ packages:
       '@types/tapable': 1.0.6
       argparse: 1.0.10
       chokidar: 3.4.3
-      fast-glob: 3.2.7
+      fast-glob: 3.2.9
       glob: 7.0.6
       glob-escape: 0.0.2
       prettier: 2.3.2
@@ -1632,8 +1632,8 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001296
-      electron-to-chromium: 1.4.37
+      caniuse-lite: 1.0.30001297
+      electron-to-chromium: 1.4.38
       escalade: 3.1.1
       node-releases: 2.0.1
       picocolors: 1.0.0
@@ -1745,8 +1745,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /caniuse-lite/1.0.30001296:
-    resolution: {integrity: sha512-WfrtPEoNSoeATDlf4y3QvkwiELl9GyPLISV5GejTbbQRtQx4LhsXmc9IQ6XCL2d7UxCyEzToEZNMeqR79OUw8Q==}
+  /caniuse-lite/1.0.30001297:
+    resolution: {integrity: sha512-6bbIbowYG8vFs/Lk4hU9jFt7NknGDleVAciK916tp6ft1j+D//ZwwL6LbF1wXMQ32DMSjeuUV8suhh6dlmFjcA==}
     dev: true
 
   /caseless/0.12.0:
@@ -2412,8 +2412,8 @@ packages:
     resolution: {integrity: sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=}
     dev: true
 
-  /electron-to-chromium/1.4.37:
-    resolution: {integrity: sha512-XIvFB1omSAxYgHYX48sC+HR8i/p7lx7R+0cX9faElg1g++h9IilCrJ12+bQuY+d96Wp7zkBiJwMOv+AhLtLrTg==}
+  /electron-to-chromium/1.4.38:
+    resolution: {integrity: sha512-WhHt3sZazKj0KK/UpgsbGQnUUoFeAHVishzHFExMxagpZgjiGYSC9S0ZlbhCfSH2L2i+2A1yyqOIliTctMx7KQ==}
     dev: true
 
   /elliptic/6.5.4:
@@ -2813,9 +2813,9 @@ packages:
     resolution: {integrity: sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==}
     dev: true
 
-  /fast-glob/3.2.7:
-    resolution: {integrity: sha512-rYGMRwip6lUMvYD3BTScMwT1HtAs2d71SMv66Vrxs0IekGZEjhM0pcMfjQPnknBt2zeCwQMEupiN02ZP4DiT1Q==}
-    engines: {node: '>=8'}
+  /fast-glob/3.2.9:
+    resolution: {integrity: sha512-MBwILhhD92sziIrMQwpqcuGERF+BH99ei2a3XsGJuqEKcSycAL+w0HWokFenZXona+kjFr82Lf71eTxNRC06XQ==}
+    engines: {node: '>=8.6.0'}
     dependencies:
       '@nodelib/fs.stat': 2.0.5
       '@nodelib/fs.walk': 1.2.8
@@ -3473,7 +3473,7 @@ packages:
     dependencies:
       assert-plus: 1.0.0
       jsprim: 1.4.2
-      sshpk: 1.16.1
+      sshpk: 1.17.0
     dev: true
 
   /https-browserify/1.0.0:
@@ -6210,8 +6210,8 @@ packages:
     resolution: {integrity: sha1-BOaSb2YolTVPPdAVIDYzuFcpfiw=}
     dev: true
 
-  /sshpk/1.16.1:
-    resolution: {integrity: sha512-HXXqVUq7+pcKeLqqZj6mHFUMvXtOJt1uoUx09pFW6011inTMxqI8BA8PM95myrIyyKwdnzjdFjLiE6KBPVtJIg==}
+  /sshpk/1.17.0:
+    resolution: {integrity: sha512-/9HIEs1ZXGhSPE8X6Ccm7Nam1z8KcoCqPdI7ecm1N33EzAetWahvQWVqLZtaZQ+IDKX4IyA2o0gBzqIMkAagHQ==}
     engines: {node: '>=0.10.0'}
     hasBin: true
     dependencies:
