@@ -16,12 +16,11 @@ devDependencies:
 
 packages:
 
-  /@ampproject/remapping/2.0.1:
-    resolution: {integrity: sha512-EldHF4Ufj3NL9yCAmYrPzY+3/Yqrzxu24F4Mu4nRjK3w70AKYRmhuLwGZdA9JeoDsbIwkgGkbqUK2INuF582Og==}
+  /@ampproject/remapping/2.0.2:
+    resolution: {integrity: sha512-sE8Gx+qSDMLoJvb3QarJJlDQK7SSY4rK3hxp4XsiANeFOmjU46ZI7Y9adAQRJrmbz8zbtZkp3mJTT+rGxtF0XA==}
     engines: {node: '>=6.0.0'}
     dependencies:
-      '@jridgewell/resolve-uri': 3.0.3
-      '@jridgewell/trace-mapping': 0.2.2
+      '@jridgewell/trace-mapping': 0.2.5
       sourcemap-codec: 1.4.8
     dev: true
 
@@ -41,7 +40,7 @@ packages:
     resolution: {integrity: sha512-x/5Ea+RO5MvF9ize5DeVICJoVrNv0Mi2RnIABrZEKYvPEpldXwauPkgvYA17cKa6WpU3LoYvYbuEMFtSNFsarA==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@ampproject/remapping': 2.0.1
+      '@ampproject/remapping': 2.0.2
       '@babel/code-frame': 7.16.7
       '@babel/generator': 7.17.0
       '@babel/helper-compilation-targets': 7.16.7_@babel+core@7.17.0
@@ -587,15 +586,15 @@ packages:
       chalk: 4.1.2
     dev: true
 
-  /@jridgewell/resolve-uri/3.0.3:
-    resolution: {integrity: sha512-fuIOnc81C5iRNevb/XPiM8Khp9bVjreydRQ37rt0C/dY0PAW1DRvEM3WrKX/5rStS5lbgwS0FCgqSndh9tvK5w==}
-    engines: {node: '>=10.0.0'}
+  /@jridgewell/resolve-uri/3.0.4:
+    resolution: {integrity: sha512-cz8HFjOFfUBtvN+NXYSFMHYRdxZMaEl0XypVrhzxBgadKIXhIkRd8aMeHhmF56Sl7SuS8OnUpQ73/k9LE4VnLg==}
+    engines: {node: '>=6.0.0'}
     dev: true
 
-  /@jridgewell/trace-mapping/0.2.2:
-    resolution: {integrity: sha512-I9AGQzMPEzQNJgib2YSqciYWazGsXSyu1rEEeaPeM1764ZtnfNTxA5bofzG/POMI3QcvpBUxwecOPZM6ZhkEpg==}
+  /@jridgewell/trace-mapping/0.2.5:
+    resolution: {integrity: sha512-K+Eths78fXDFOvQ2hgJhCiI5s+g81r2yXmACBpbn+f2+Qt94PNoTgUcAXPT8DZkhXCsZRsHVWVtY5KIBMcpDqQ==}
     dependencies:
-      '@jridgewell/resolve-uri': 3.0.3
+      '@jridgewell/resolve-uri': 3.0.4
       sourcemap-codec: 1.4.8
     dev: true
 
@@ -1648,8 +1647,8 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001305
-      electron-to-chromium: 1.4.62
+      caniuse-lite: 1.0.30001306
+      electron-to-chromium: 1.4.64
       escalade: 3.1.1
       node-releases: 2.0.1
       picocolors: 1.0.0
@@ -1761,8 +1760,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /caniuse-lite/1.0.30001305:
-    resolution: {integrity: sha512-p7d9YQMji8haf0f+5rbcv9WlQ+N5jMPfRAnUmZRlNxsNeBO3Yr7RYG6M2uTY1h9tCVdlkJg6YNNc4kiAiBLdWA==}
+  /caniuse-lite/1.0.30001306:
+    resolution: {integrity: sha512-Wd1OuggRzg1rbnM5hv1wXs2VkxJH/AA+LuudlIqvZiCvivF+wJJe2mgBZC8gPMgI7D76PP5CTx8Luvaqc1V6OQ==}
     dev: true
 
   /caseless/0.12.0:
@@ -2428,8 +2427,8 @@ packages:
     resolution: {integrity: sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=}
     dev: true
 
-  /electron-to-chromium/1.4.62:
-    resolution: {integrity: sha512-fWc/zAThqZzl7fbuLzar+x6bqZBWHrsBXQOqv//yrgdTLY/G3JGTPOWhPKIhbhynJJhqE9QNzKzlpCINUmUMoA==}
+  /electron-to-chromium/1.4.64:
+    resolution: {integrity: sha512-8mec/99xgLUZCIZZq3wt61Tpxg55jnOSpxGYapE/1Ma9MpFEYYaz4QNYm0CM1rrnCo7i3FRHhbaWjeCLsveGjQ==}
     dev: true
 
   /elliptic/6.5.4:
@@ -2694,7 +2693,7 @@ packages:
       is-stream: 1.1.0
       npm-run-path: 2.0.2
       p-finally: 1.0.0
-      signal-exit: 3.0.6
+      signal-exit: 3.0.7
       strip-eof: 1.0.0
     dev: true
 
@@ -2709,7 +2708,7 @@ packages:
       merge-stream: 2.0.0
       npm-run-path: 4.0.1
       onetime: 5.1.2
-      signal-exit: 3.0.6
+      signal-exit: 3.0.7
       strip-final-newline: 2.0.0
     dev: true
 
@@ -3087,7 +3086,7 @@ packages:
       console-control-strings: 1.1.0
       has-unicode: 2.0.1
       object-assign: 4.1.1
-      signal-exit: 3.0.6
+      signal-exit: 3.0.7
       string-width: 1.0.2
       strip-ansi: 3.0.1
       wide-align: 1.1.5
@@ -6052,8 +6051,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /signal-exit/3.0.6:
-    resolution: {integrity: sha512-sDl4qMFpijcGw22U5w63KmD3cZJfBuFlVNbVMKje2keoKML7X2UzWbc4XrmEbDwg0NXJc3yv4/ox7b+JWb57kQ==}
+  /signal-exit/3.0.7:
+    resolution: {integrity: sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==}
     dev: true
 
   /slash/3.0.0:
@@ -7117,7 +7116,7 @@ packages:
     dependencies:
       imurmurhash: 0.1.4
       is-typedarray: 1.0.0
-      signal-exit: 3.0.6
+      signal-exit: 3.0.7
       typedarray-to-buffer: 3.1.5
     dev: true
 
