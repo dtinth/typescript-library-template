@@ -1,14 +1,14 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@microsoft/api-documenter': ^7.17.0
+  '@microsoft/api-documenter': ^7.17.1
   '@rushstack/heft': ^0.44.5
   '@rushstack/heft-web-rig': ^0.9.3
   '@types/heft-jest': ^1.0.2
   prettier: ^2.6.2
 
 devDependencies:
-  '@microsoft/api-documenter': 7.17.0
+  '@microsoft/api-documenter': 7.17.1
   '@rushstack/heft': 0.44.5
   '@rushstack/heft-web-rig': 0.9.3_@rushstack+heft@0.44.5
   '@types/heft-jest': 1.0.2
@@ -624,8 +624,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.11
     dev: true
 
-  /@microsoft/api-documenter/7.17.0:
-    resolution: {integrity: sha512-rIZcfDkBsWsflvN1n0tVgIUdivV7slBIsN0WyK8gUG1MjK7dv+rbAB5QPLhg3dPvbXLgPLanJCFwoO2yFdxs+A==}
+  /@microsoft/api-documenter/7.17.1:
+    resolution: {integrity: sha512-Qjn+pQUoT/nuFgsf/IOBSWSDJyTStHo1jIbWxMfmwh62Zr9NB/OKBPNH+YwKt6NWq4Ds0Ajhurdind2Z8coBkg==}
     hasBin: true
     dependencies:
       '@microsoft/api-extractor-model': 7.16.0
