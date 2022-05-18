@@ -4466,8 +4466,8 @@ packages:
     engines: {node: '>= 0.6'}
     dev: true
 
-  /memfs/3.4.1:
-    resolution: {integrity: sha512-1c9VPVvW5P7I85c35zAdEr1TD5+F11IToIHIlrVIcflfnzPkJa0ZoYEoEdYDP8KgPFoSZ/opDrUsAoZWym3mtw==}
+  /memfs/3.4.3:
+    resolution: {integrity: sha512-eivjfi7Ahr6eQTn44nvTnR60e4a1Fs1Via2kCR5lHo/kyNoiMWaXCNJ/GpSd0ilXas2JSOl9B5FTIhflXu0hlg==}
     engines: {node: '>= 4.0.0'}
     dependencies:
       fs-monkey: 1.0.3
@@ -6714,14 +6714,14 @@ packages:
       - utf-8-validate
     dev: true
 
-  /webpack-dev-middleware/5.3.1_webpack@5.68.0:
-    resolution: {integrity: sha512-81EujCKkyles2wphtdrnPg/QqegC/AtqNH//mQkBYSMqwFVCQrxM6ktB2O/SPlZy7LqeEfTbV3cZARGQz6umhg==}
+  /webpack-dev-middleware/5.3.2_webpack@5.68.0:
+    resolution: {integrity: sha512-PKp4aIEDC2FFJgNMRjdXhpy5ad7xeTqHb+/90Vr3yMymzzDxOVZw3Paj+vqKEMDXfGjuIvh8y99USoBOHZJcEg==}
     engines: {node: '>= 12.13.0'}
     peerDependencies:
       webpack: ^4.0.0 || ^5.0.0
     dependencies:
       colorette: 2.0.16
-      memfs: 3.4.1
+      memfs: 3.4.3
       mime-types: 2.1.35
       range-parser: 1.2.1
       schema-utils: 4.0.0
@@ -6768,7 +6768,7 @@ packages:
       spdy: 4.0.2
       strip-ansi: 7.0.1
       webpack: 5.68.0
-      webpack-dev-middleware: 5.3.1_webpack@5.68.0
+      webpack-dev-middleware: 5.3.2_webpack@5.68.0
       ws: 8.6.0
     transitivePeerDependencies:
       - bufferutil
