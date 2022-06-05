@@ -1022,7 +1022,7 @@ packages:
   /@types/heft-jest/1.0.2:
     resolution: {integrity: sha512-HabX0JO8Pk+a3gTm2DQwTMrfZjqP6VxDnn8kIXAP6uZbmy4bkKuFRi9T9BV9K6LhwHrmcgq5kk2YikYHy4LJeg==}
     dependencies:
-      '@types/jest': 28.1.0
+      '@types/jest': 28.1.1
     dev: true
 
   /@types/html-minifier-terser/6.1.0:
@@ -1051,8 +1051,8 @@ packages:
       '@types/istanbul-lib-report': 3.0.0
     dev: true
 
-  /@types/jest/28.1.0:
-    resolution: {integrity: sha512-ITfF6JJIl9zbEi2k6NmhNE/BiDqfsI/ceqfvdaWaPbcrCpYyyRq4KtDQIWh6vQUru6SqwppODiom/Zhid+np6A==}
+  /@types/jest/28.1.1:
+    resolution: {integrity: sha512-C2p7yqleUKtCkVjlOur9BWVA4HgUQmEj/HWCt5WzZ5mLXrWnyIfl0wGuArc+kBXsy0ZZfLp+7dywB4HtSVYGVA==}
     dependencies:
       jest-matcher-utils: 27.5.1
       pretty-format: 27.5.1
@@ -6027,8 +6027,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /source-map/0.7.3:
-    resolution: {integrity: sha512-CkCj6giN3S+n9qrYiBTX5gystlENnRW5jZeNLHpe6aue+SrHcG5VYwujhW9s4dY31mEGsxBDrHR6oI69fTXsaQ==}
+  /source-map/0.7.4:
+    resolution: {integrity: sha512-l3BikUxvPOcn5E74dZiq5BGsTb5yEwhaTSzccU6t4sDOH8NWJCstKO5QT2CvtFoK6F0saL7p9xHAqHOlCPJygA==}
     engines: {node: '>= 8'}
     dev: true
 
@@ -6607,7 +6607,7 @@ packages:
     dependencies:
       '@types/istanbul-lib-coverage': 2.0.4
       convert-source-map: 1.8.0
-      source-map: 0.7.3
+      source-map: 0.7.4
     dev: true
 
   /validate-npm-package-license/3.0.4:
