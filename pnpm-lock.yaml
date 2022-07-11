@@ -1534,7 +1534,7 @@ packages:
       postcss: ^8.1.0
     dependencies:
       browserslist: 4.21.1
-      caniuse-lite: 1.0.30001363
+      caniuse-lite: 1.0.30001364
       fraction.js: 4.2.0
       normalize-range: 0.1.2
       picocolors: 1.0.0
@@ -1704,7 +1704,7 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001363
+      caniuse-lite: 1.0.30001364
       electron-to-chromium: 1.4.185
       node-releases: 2.0.6
       update-browserslist-db: 1.0.4_browserslist@4.21.1
@@ -1776,13 +1776,13 @@ packages:
     resolution: {integrity: sha512-bsTwuIg/BZZK/vreVTYYbSWoe2F+71P7K5QGEX+pT250DZbfU1MQ5prOKpPR+LL6uWKK3KMwMCAS74QB3Um1uw==}
     dependencies:
       browserslist: 4.21.1
-      caniuse-lite: 1.0.30001363
+      caniuse-lite: 1.0.30001364
       lodash.memoize: 4.1.2
       lodash.uniq: 4.5.0
     dev: true
 
-  /caniuse-lite/1.0.30001363:
-    resolution: {integrity: sha512-HpQhpzTGGPVMnCjIomjt+jvyUu8vNFo3TaDiZ/RcoTrlOq/5+tC8zHdsbgFB6MxmaY+jCpsH09aD80Bb4Ow3Sg==}
+  /caniuse-lite/1.0.30001364:
+    resolution: {integrity: sha512-9O0xzV3wVyX0SlegIQ6knz+okhBB5pE0PC40MNdwcipjwpxoUEHL24uJ+gG42cgklPjfO5ZjZPme9FTSN3QT2Q==}
     dev: true
 
   /caseless/0.12.0:
@@ -2213,7 +2213,7 @@ packages:
       postcss: ^8.2.15
     dependencies:
       cssnano-preset-default: 5.2.12_postcss@8.4.14
-      lilconfig: 2.0.5
+      lilconfig: 2.0.6
       postcss: 8.4.14
       yaml: 1.10.2
     dev: true
@@ -4387,8 +4387,8 @@ packages:
       type-check: 0.4.0
     dev: true
 
-  /lilconfig/2.0.5:
-    resolution: {integrity: sha512-xaYmXZtTHPAw5m+xLN8ab9C+3a8YmV3asNSPOATITbtwrfbwaLJj8h66H1WMIpALCkqsIzK3h7oQ+PdX+LQ9Eg==}
+  /lilconfig/2.0.6:
+    resolution: {integrity: sha512-9JROoBW7pobfsx+Sq2JsASvCo6Pfo6WWoUW79HuB1BCoBXD4PLWJPqDF6fNj67pqBYTbAHkE57M1kS/+L1neOg==}
     engines: {node: '>=10'}
     dev: true
 
