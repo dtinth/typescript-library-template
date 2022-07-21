@@ -1,16 +1,16 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@microsoft/api-documenter': ^7.18.3
-  '@rushstack/heft': ^0.46.4
-  '@rushstack/heft-web-rig': ^0.10.22
+  '@microsoft/api-documenter': ^7.18.4
+  '@rushstack/heft': ^0.46.5
+  '@rushstack/heft-web-rig': ^0.10.23
   '@types/heft-jest': ^1.0.3
   prettier: ^2.7.1
 
 devDependencies:
-  '@microsoft/api-documenter': 7.18.3
-  '@rushstack/heft': 0.46.4
-  '@rushstack/heft-web-rig': 0.10.22_@rushstack+heft@0.46.4
+  '@microsoft/api-documenter': 7.18.4
+  '@rushstack/heft': 0.46.5
+  '@rushstack/heft-web-rig': 0.10.23_@rushstack+heft@0.46.5
   '@types/heft-jest': 1.0.3
   prettier: 2.7.1
 
@@ -657,11 +657,11 @@ packages:
     resolution: {integrity: sha512-Hcv+nVC0kZnQ3tD9GVu5xSMR4VVYOteQIr/hwFPVEvPdlXqgGEuRjiheChHgdM+JyqdgNcmzZOX/tnl0JOiI7A==}
     dev: true
 
-  /@microsoft/api-documenter/7.18.3:
-    resolution: {integrity: sha512-B3quZHJ3ZRDO3iw+8NfTCHxQwmWltTz0GN3rCBBqNS2CpLgIUHM+lC7vUtb3VFkMeLAOK5eKB88qRNUqKA24pg==}
+  /@microsoft/api-documenter/7.18.4:
+    resolution: {integrity: sha512-CWuvEmEqJaUk06pUsZ6QHfJ5TYj2KM0nb/1qVvlv4rhCrCSPvhakWFH0hvpg7ut6Qz7RG7EcbrPXJahVFOjf5Q==}
     hasBin: true
     dependencies:
-      '@microsoft/api-extractor-model': 7.21.0
+      '@microsoft/api-extractor-model': 7.22.0
       '@microsoft/tsdoc': 0.14.1
       '@rushstack/node-core-library': 3.49.0
       '@rushstack/ts-command-line': 4.12.1
@@ -670,19 +670,19 @@ packages:
       resolve: 1.17.0
     dev: true
 
-  /@microsoft/api-extractor-model/7.21.0:
-    resolution: {integrity: sha512-NN4mXzoQWTuzznIcnLWeV6tGyn6Os9frDK6M/mmTXZ73vUYOvSWoKQ5SYzyzP7HF3YtvTmr1Rs+DsBb0HRx7WQ==}
+  /@microsoft/api-extractor-model/7.22.0:
+    resolution: {integrity: sha512-DrEP8PH1JyIZol8LIZ8KbJbTRSJlcxQPLMPdsYNDNs5Mh5yWSjR+DPNXOJjccnr0TRwq8N1e440Ko/NfiPhkmw==}
     dependencies:
       '@microsoft/tsdoc': 0.14.1
       '@microsoft/tsdoc-config': 0.16.1
       '@rushstack/node-core-library': 3.49.0
     dev: true
 
-  /@microsoft/api-extractor/7.28.4:
-    resolution: {integrity: sha512-7JeROBGYTUt4/4HPnpMscsQgLzX0OfGTQR2qOQzzh3kdkMyxmiv2mzpuhoMnwbubb1GvPcyFm+NguoqOqkCVaw==}
+  /@microsoft/api-extractor/7.28.5:
+    resolution: {integrity: sha512-l4w+AiOpTwTOMTyHRWSB2W2Lc7kZnTiC6xfIN4M4WHy+EPfwXuvxpsZ5lfz2AoftSCTkdcEi4fL0CuAup1IMyg==}
     hasBin: true
     dependencies:
-      '@microsoft/api-extractor-model': 7.21.0
+      '@microsoft/api-extractor-model': 7.22.0
       '@microsoft/tsdoc': 0.14.1
       '@microsoft/tsdoc-config': 0.16.1
       '@rushstack/node-core-library': 3.49.0
@@ -743,15 +743,15 @@ packages:
       jsonpath-plus: 4.0.0
     dev: true
 
-  /@rushstack/heft-jest-plugin/0.3.19_@rushstack+heft@0.46.4:
-    resolution: {integrity: sha512-8XAC14OkG60qfZrqN9h4OiSaWBFdLDrZOWUQ6C1wgW0MDh4nsH++wY4/tvYVNGedft+oicXmY1s9uRExQUOjYg==}
+  /@rushstack/heft-jest-plugin/0.3.20_@rushstack+heft@0.46.5:
+    resolution: {integrity: sha512-AzZMzm6Ho0sscwFImL4QGW7MhxkqW1c86evBYTeZJz9h8Q4IJnSiDkGOQFFZbYHt8abccO1Z9Dotl1+HlCxgSw==}
     peerDependencies:
-      '@rushstack/heft': ^0.46.4
+      '@rushstack/heft': ^0.46.5
     dependencies:
       '@jest/core': 27.4.7
       '@jest/reporters': 27.4.6
       '@jest/transform': 27.4.6
-      '@rushstack/heft': 0.46.4
+      '@rushstack/heft': 0.46.5
       '@rushstack/heft-config-file': 0.9.0
       '@rushstack/node-core-library': 3.49.0
       jest-config: 27.4.7
@@ -767,30 +767,30 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@rushstack/heft-sass-plugin/0.5.0_@rushstack+heft@0.46.4:
-    resolution: {integrity: sha512-f/EFl12wZurHwCwKR2wUbfvEzCpS7xY6sweT7d+MX0tCWrUhrXRpQiUlvAILMTuqxqcO9l00cbELDsGxjUSibQ==}
+  /@rushstack/heft-sass-plugin/0.5.1_@rushstack+heft@0.46.5:
+    resolution: {integrity: sha512-jLkNoCgV6Sfj0o4sGl7NnroaIQvKwRlA2GO8gsSn1Zxik5a1/qo5+xOPCMd2UUKB8SOj4dXXVJ7dgyGlboRKXQ==}
     peerDependencies:
-      '@rushstack/heft': ^0.46.4
+      '@rushstack/heft': ^0.46.5
     dependencies:
-      '@rushstack/heft': 0.46.4
+      '@rushstack/heft': 0.46.5
       '@rushstack/heft-config-file': 0.9.0
       '@rushstack/node-core-library': 3.49.0
-      '@rushstack/typings-generator': 0.7.8
+      '@rushstack/typings-generator': 0.7.9
       node-sass: 6.0.1
       postcss: 8.4.14
       postcss-modules: 1.5.0
     dev: true
 
-  /@rushstack/heft-web-rig/0.10.22_@rushstack+heft@0.46.4:
-    resolution: {integrity: sha512-2YGxfTqS97F5cQ6ZYMje8vvCrYgVaKGJsALtO41bUb9rk+4Nnv/Qb67GUETsMrCFUmKMI9OwT+mtQEDaIaat4Q==}
+  /@rushstack/heft-web-rig/0.10.23_@rushstack+heft@0.46.5:
+    resolution: {integrity: sha512-7McsR2n9Zx/CHeT7ZOe8fF2L4k9Rh0w27FsvwL4QxdyjtBDNgKVR5k5Ls5csVT4BpRJKNoFsf50pqFCdNI2OEA==}
     peerDependencies:
-      '@rushstack/heft': ^0.46.4
+      '@rushstack/heft': ^0.46.5
     dependencies:
-      '@microsoft/api-extractor': 7.28.4
-      '@rushstack/heft': 0.46.4
-      '@rushstack/heft-jest-plugin': 0.3.19_@rushstack+heft@0.46.4
-      '@rushstack/heft-sass-plugin': 0.5.0_@rushstack+heft@0.46.4
-      '@rushstack/heft-webpack5-plugin': 0.5.34_g62otorta4rfjruiqo4l7hlsn4
+      '@microsoft/api-extractor': 7.28.5
+      '@rushstack/heft': 0.46.5
+      '@rushstack/heft-jest-plugin': 0.3.20_@rushstack+heft@0.46.5
+      '@rushstack/heft-sass-plugin': 0.5.1_@rushstack+heft@0.46.5
+      '@rushstack/heft-webpack5-plugin': 0.5.35_o3blma5ifruke5r4yrcp7z5d5i
       autoprefixer: 10.4.7_postcss@8.4.14
       css-loader: 6.6.0_webpack@5.68.0
       css-minimizer-webpack-plugin: 3.4.1_webpack@5.68.0
@@ -830,13 +830,13 @@ packages:
       - webpack-cli
     dev: true
 
-  /@rushstack/heft-webpack5-plugin/0.5.34_g62otorta4rfjruiqo4l7hlsn4:
-    resolution: {integrity: sha512-Th6Wr3y5tg6uv4WN/WL5yHugXlm64+b21TbgtaztFrLPFPX1GNGaY2Izp7suqHLmda+K7NTIEjNk5dauP51GyQ==}
+  /@rushstack/heft-webpack5-plugin/0.5.35_o3blma5ifruke5r4yrcp7z5d5i:
+    resolution: {integrity: sha512-7wj3zWi7IOz77do53vdNXob2HTVSM093gfXzIZSySmaFzNHU3hLMWcmfz7fp8tntZfksGJxHKnlTtyAKOf2bjw==}
     peerDependencies:
-      '@rushstack/heft': ^0.46.4
+      '@rushstack/heft': ^0.46.5
       webpack: ~5.68.0
     dependencies:
-      '@rushstack/heft': 0.46.4
+      '@rushstack/heft': 0.46.5
       '@rushstack/node-core-library': 3.49.0
       webpack: 5.68.0
       webpack-dev-server: 4.9.3_webpack@5.68.0
@@ -848,8 +848,8 @@ packages:
       - webpack-cli
     dev: true
 
-  /@rushstack/heft/0.46.4:
-    resolution: {integrity: sha512-XWNld0Das989UUHckaus6ZBhIutncpcQxu0dGyuzKPy3NhJkZKpNXtN2uDwu3POYy0R28IKB1uLi9594Z6vpJw==}
+  /@rushstack/heft/0.46.5:
+    resolution: {integrity: sha512-XGsP9NjGw42ayP2Bl35UJ4YIimbjjudyzocWrPZMMBTNa+y+5UnqON028W3UYishqsUi21xItWY5QdIARx5opQ==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dependencies:
@@ -899,8 +899,8 @@ packages:
       string-argv: 0.3.1
     dev: true
 
-  /@rushstack/typings-generator/0.7.8:
-    resolution: {integrity: sha512-lPSsXAkLW6nC1LhETB2inETPdtH4hhYCpKSPtkIu+sYCx0neG9chsIFCbU6nGoOe6i2vxHk5jt1NHlg5MeVEuA==}
+  /@rushstack/typings-generator/0.7.9:
+    resolution: {integrity: sha512-yR8IJ4xX4l31wNGB3q5BYlQOi8qAgIwcH3LnLbTSqhczgWA3E+6wg6ImZBrDL1loIjP92nwl+zWNXee2+Ls9uw==}
     dependencies:
       '@rushstack/node-core-library': 3.49.0
       '@types/node': 12.20.24
