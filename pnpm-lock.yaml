@@ -983,7 +983,7 @@ packages:
   /@types/connect-history-api-fallback/1.3.5:
     resolution: {integrity: sha512-h8QJa8xSb1WD4fpKBDcATDNGXghFj6/3GRWG6dhmRcu0RX1Ubasur2Uvx5aeEwlf0MwblEC2bMzzMQntxnw/Cw==}
     dependencies:
-      '@types/express-serve-static-core': 4.17.29
+      '@types/express-serve-static-core': 4.17.30
       '@types/node': 18.6.1
     dev: true
 
@@ -1011,8 +1011,8 @@ packages:
     resolution: {integrity: sha512-C6N5s2ZFtuZRj54k2/zyRhNDjJwwcViAM3Nbm8zjBpbqAdZ00mr0CFxvSKeO8Y/e03WVFLpQMdHYVfUd6SB+Hw==}
     dev: true
 
-  /@types/express-serve-static-core/4.17.29:
-    resolution: {integrity: sha512-uMd++6dMKS32EOuw1Uli3e3BPgdLIXmezcfHv7N4c1s3gkhikBplORPpMq3fuWkxncZN1reb16d5n8yhQ80x7Q==}
+  /@types/express-serve-static-core/4.17.30:
+    resolution: {integrity: sha512-gstzbTWro2/nFed1WXtf+TtrpwxH7Ggs4RLYTLbeVgIkUQOI3WG/JKjgeOU1zXDvezllupjrf8OPIdvTbIaVOQ==}
     dependencies:
       '@types/node': 18.6.1
       '@types/qs': 6.9.7
@@ -1023,7 +1023,7 @@ packages:
     resolution: {integrity: sha512-6bSZTPaTIACxn48l50SR+axgrqm6qXFIxrdAKaG6PaJk3+zuUr35hBlgT7vOmJcum+OEaIBLtHV/qloEAFITeA==}
     dependencies:
       '@types/body-parser': 1.19.2
-      '@types/express-serve-static-core': 4.17.29
+      '@types/express-serve-static-core': 4.17.30
       '@types/qs': 6.9.7
       '@types/serve-static': 1.13.10
     dev: true
@@ -1101,8 +1101,8 @@ packages:
     resolution: {integrity: sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==}
     dev: true
 
-  /@types/prettier/2.6.3:
-    resolution: {integrity: sha512-ymZk3LEC/fsut+/Q5qejp6R9O1rMxz3XaRHDV6kX8MrGAhOSPqVARbDi+EZvInBpw+BnCX3TD240byVkOfQsHg==}
+  /@types/prettier/2.6.4:
+    resolution: {integrity: sha512-fOwvpvQYStpb/zHMx0Cauwywu9yLDmzWiiQBC7gJyq5tYLUXFZvDG7VK1B7WBxxjBJNKFOZ0zLoOQn8vmATbhw==}
     dev: true
 
   /@types/qs/6.9.7:
@@ -1683,7 +1683,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001370
-      electron-to-chromium: 1.4.200
+      electron-to-chromium: 1.4.202
       node-releases: 2.0.6
       update-browserslist-db: 1.0.5_browserslist@4.21.2
     dev: true
@@ -2413,8 +2413,8 @@ packages:
     resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
     dev: true
 
-  /electron-to-chromium/1.4.200:
-    resolution: {integrity: sha512-nPyI7oHc8T64oSqRXrAt99gNMpk0SAgPHw/o+hkNKyb5+bcdnFtZcSO9FUJES5cVkVZvo8u4qiZ1gQILl8UXsA==}
+  /electron-to-chromium/1.4.202:
+    resolution: {integrity: sha512-JYsK2ex9lmQD27kj19fhXYxzFJ/phLAkLKHv49A5UY6kMRV2xED3qMMLg/voW/+0AR6wMiI+VxlmK9NDtdxlPA==}
     dev: true
 
   /emittery/0.8.1:
@@ -3959,7 +3959,7 @@ packages:
       '@jest/transform': 27.4.6
       '@jest/types': 27.5.1
       '@types/babel__traverse': 7.17.1
-      '@types/prettier': 2.6.3
+      '@types/prettier': 2.6.4
       babel-preset-current-node-syntax: 1.0.1_@babel+core@7.18.9
       chalk: 4.1.2
       expect: 27.5.1
@@ -3989,7 +3989,7 @@ packages:
       '@jest/transform': 27.5.1
       '@jest/types': 27.5.1
       '@types/babel__traverse': 7.17.1
-      '@types/prettier': 2.6.3
+      '@types/prettier': 2.6.4
       babel-preset-current-node-syntax: 1.0.1_@babel+core@7.18.9
       chalk: 4.1.2
       expect: 27.5.1
