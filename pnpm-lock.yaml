@@ -517,7 +517,7 @@ packages:
     resolution: {integrity: sha512-/l/VWsdt/aBXgjshLWOFyFt3IVdYypu5y2Wn2rOO1un6nkqIn8SLXzgIMYXFyYsRWDyF5EthmKJMIdJvk08grg==}
     engines: {node: ^12.13.0 || ^14.15.0 || ^16.10.0 || >=17.0.0}
     dependencies:
-      '@sinclair/typebox': 0.24.21
+      '@sinclair/typebox': 0.24.22
     dev: true
 
   /@jest/source-map/27.5.1:
@@ -791,7 +791,7 @@ packages:
       '@rushstack/heft-jest-plugin': 0.3.21_@rushstack+heft@0.46.6
       '@rushstack/heft-sass-plugin': 0.5.2_@rushstack+heft@0.46.6
       '@rushstack/heft-webpack5-plugin': 0.5.36_7khw7ras6rxbycqzmbdxzhgwpm
-      autoprefixer: 10.4.7_postcss@8.4.14
+      autoprefixer: 10.4.8_postcss@8.4.14
       css-loader: 6.6.0_webpack@5.68.0
       css-minimizer-webpack-plugin: 3.4.1_webpack@5.68.0
       eslint: 8.7.0
@@ -908,8 +908,8 @@ packages:
       glob: 7.0.6
     dev: true
 
-  /@sinclair/typebox/0.24.21:
-    resolution: {integrity: sha512-II2SIjvxBVJmrGkkZYza/BqNjwx3PWROIA8CZ0/Hn7LV0Mv0CVpZxoyHGBVsQqfFLMv9DmArIeRHTwo76bE6oA==}
+  /@sinclair/typebox/0.24.22:
+    resolution: {integrity: sha512-JsBe3cOFpNZ6yjBYnXKhcENWy5qZE3PQZwExQ5ksA/h8qp4bwwxFmy07A6bC2R6qv6+RF3SfrbQTskTwYNTXUQ==}
     dev: true
 
   /@sinonjs/commons/1.8.3:
@@ -1025,7 +1025,7 @@ packages:
       '@types/body-parser': 1.19.2
       '@types/express-serve-static-core': 4.17.30
       '@types/qs': 6.9.7
-      '@types/serve-static': 1.13.10
+      '@types/serve-static': 1.15.0
     dev: true
 
   /@types/graceful-fs/4.1.5:
@@ -1077,8 +1077,8 @@ packages:
     resolution: {integrity: sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==}
     dev: true
 
-  /@types/mime/1.3.2:
-    resolution: {integrity: sha512-YATxVxgRqNH6nHEIsvg6k2Boc1JHI9ZbH5iWFFv/MTkchz3b1ieGDa5T0a9RznNdI0KhVbdbWSN+KWWrQZRxTw==}
+  /@types/mime/3.0.0:
+    resolution: {integrity: sha512-fccbsHKqFDXClBZTDLA43zl0+TbxyIwyzIzwwhvoJvhNjOErCdeX2xJbURimv2EbSVUGav001PaCJg4mZxMl4w==}
     dev: true
 
   /@types/minimist/1.2.2:
@@ -1123,10 +1123,10 @@ packages:
       '@types/express': 4.17.13
     dev: true
 
-  /@types/serve-static/1.13.10:
-    resolution: {integrity: sha512-nCkHGI4w7ZgAdNkrEu0bv+4xNV/XDqW+DydknebMOQwkpDGx8G+HTlj7R7ABI8i8nKxVw0wtKPi1D+lPOkh4YQ==}
+  /@types/serve-static/1.15.0:
+    resolution: {integrity: sha512-z5xyF6uh8CbjAu9760KDKsH2FcDxZ2tFCsA4HIMWE6IkiYMXfVoa+4f9KX+FN0ZLsaMw1WNG2ETLA6N+/YA+cg==}
     dependencies:
-      '@types/mime': 1.3.2
+      '@types/mime': 3.0.0
       '@types/node': 18.6.2
     dev: true
 
@@ -1506,8 +1506,8 @@ packages:
     resolution: {integrity: sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==}
     dev: true
 
-  /autoprefixer/10.4.7_postcss@8.4.14:
-    resolution: {integrity: sha512-ypHju4Y2Oav95SipEcCcI5J7CGPuvz8oat7sUtYj3ClK44bldfvtvcxK6IEK++7rqB7YchDGzweZIBG+SD0ZAA==}
+  /autoprefixer/10.4.8_postcss@8.4.14:
+    resolution: {integrity: sha512-75Jr6Q/XpTqEf6D2ltS5uMewJIx5irCU1oBYJrWjFenq/m12WRRrz6g15L1EIoYvPLXTbEry7rDOwrcYNj77xw==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
     peerDependencies:
@@ -1683,7 +1683,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001373
-      electron-to-chromium: 1.4.205
+      electron-to-chromium: 1.4.206
       node-releases: 2.0.6
       update-browserslist-db: 1.0.5_browserslist@4.21.3
     dev: true
@@ -2413,8 +2413,8 @@ packages:
     resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
     dev: true
 
-  /electron-to-chromium/1.4.205:
-    resolution: {integrity: sha512-sSHlbfqn6CgQqD9muogEwWrw1wi2tHEQ+sunW7ex/kJ9ICucE85JW0E9ekbRDDgLP7NlpoNVUl+el0556RhFIg==}
+  /electron-to-chromium/1.4.206:
+    resolution: {integrity: sha512-h+Fadt1gIaQ06JaIiyqPsBjJ08fV5Q7md+V8bUvQW/9OvXfL2LRICTz2EcnnCP7QzrFTS6/27MRV6Bl9Yn97zA==}
     dev: true
 
   /emittery/0.8.1:
@@ -6581,7 +6581,7 @@ packages:
       '@types/connect-history-api-fallback': 1.3.5
       '@types/express': 4.17.13
       '@types/serve-index': 1.9.1
-      '@types/serve-static': 1.13.10
+      '@types/serve-static': 1.15.0
       '@types/sockjs': 0.3.33
       '@types/ws': 8.5.3
       ansi-html-community: 0.0.8
