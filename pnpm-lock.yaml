@@ -530,7 +530,7 @@ packages:
     resolution: {integrity: sha512-3Ab5HgYIIAnS0HjqJHQYZS+zXc4tUmTmBH3z83ajI6afXp8X3ZtdLX+nXx+I7LNkJD7uN9LAVhgnjDgZa2z0kA==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
-      '@sinclair/typebox': 0.24.30
+      '@sinclair/typebox': 0.24.31
     dev: true
 
   /@jest/source-map/27.5.1:
@@ -932,8 +932,8 @@ packages:
       glob: 7.0.6
     dev: true
 
-  /@sinclair/typebox/0.24.30:
-    resolution: {integrity: sha512-YTlUf5iAfDZEVmI4SWOBGcxpufY2XQhWqSwyLeR2Qg1pkjlM6+Pvc+9MA/+zUaiEFuuX3F3KdhqS5bcasgLc5A==}
+  /@sinclair/typebox/0.24.31:
+    resolution: {integrity: sha512-uWZaAsh9WFhcY1rWLLcMU/omiIIAQ/PmgqplaF6UWY6ULPH0ZO8hupJRAydzlTQZJIK3Voz8o8dYlEx+Cm6BAA==}
     dev: true
 
   /@sinonjs/commons/1.8.3:
@@ -1544,7 +1544,7 @@ packages:
       postcss: ^8.1.0
     dependencies:
       browserslist: 4.21.3
-      caniuse-lite: 1.0.30001384
+      caniuse-lite: 1.0.30001385
       fraction.js: 4.2.0
       normalize-range: 0.1.2
       picocolors: 1.0.0
@@ -1712,8 +1712,8 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001384
-      electron-to-chromium: 1.4.234
+      caniuse-lite: 1.0.30001385
+      electron-to-chromium: 1.4.236
       node-releases: 2.0.6
       update-browserslist-db: 1.0.5_browserslist@4.21.3
     dev: true
@@ -1780,13 +1780,13 @@ packages:
     resolution: {integrity: sha512-bsTwuIg/BZZK/vreVTYYbSWoe2F+71P7K5QGEX+pT250DZbfU1MQ5prOKpPR+LL6uWKK3KMwMCAS74QB3Um1uw==}
     dependencies:
       browserslist: 4.21.3
-      caniuse-lite: 1.0.30001384
+      caniuse-lite: 1.0.30001385
       lodash.memoize: 4.1.2
       lodash.uniq: 4.5.0
     dev: true
 
-  /caniuse-lite/1.0.30001384:
-    resolution: {integrity: sha512-BBWt57kqWbc0GYZXb47wTXpmAgqr5LSibPzNjk/AWMdmJMQhLqOl3c/Kd4OAU/tu4NLfYkMx8Tlq3RVBkOBolQ==}
+  /caniuse-lite/1.0.30001385:
+    resolution: {integrity: sha512-MpiCqJGhBkHgpyimE9GWmZTnyHyEEM35u115bD3QBrXpjvL/JgcP8cUhKJshfmg4OtEHFenifcK5sZayEw5tvQ==}
     dev: true
 
   /caseless/0.12.0:
@@ -2443,8 +2443,8 @@ packages:
     resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
     dev: true
 
-  /electron-to-chromium/1.4.234:
-    resolution: {integrity: sha512-VqlJ4Ihd9F7eQIfwEtf7C0eZZDl6bQtpez8vx8VHN9iCZEzePZjr7n9OGFHSav4WN9zfLa2CFLowj0siBoc0hQ==}
+  /electron-to-chromium/1.4.236:
+    resolution: {integrity: sha512-41wPRcb9OIpB0RMLnIIDbfbJ5IXwuQ2qAr0jCTSpv5s7M61MazcBGS5kovW5E28SGxum/KR3fm2imswjdlTWmw==}
     dev: true
 
   /emittery/0.8.1:
