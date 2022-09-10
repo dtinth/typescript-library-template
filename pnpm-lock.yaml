@@ -886,7 +886,7 @@ packages:
       '@types/tapable': 1.0.6
       argparse: 1.0.10
       chokidar: 3.4.3
-      fast-glob: 3.2.11
+      fast-glob: 3.2.12
       glob: 7.0.6
       glob-escape: 0.0.2
       prettier: 2.3.2
@@ -1714,7 +1714,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001393
-      electron-to-chromium: 1.4.245
+      electron-to-chromium: 1.4.247
       node-releases: 2.0.6
       update-browserslist-db: 1.0.7_browserslist@4.21.3
     dev: true
@@ -1867,8 +1867,8 @@ packages:
     engines: {node: '>=6.0'}
     dev: true
 
-  /ci-info/3.3.2:
-    resolution: {integrity: sha512-xmDt/QIAdeZ9+nfdPsaBCpMvHNLFiLdjj59qjqn+6iPe6YmHGQ35sBnQ8uslRBXFmXkiZQOJRjvQeoGppoTjjg==}
+  /ci-info/3.4.0:
+    resolution: {integrity: sha512-t5QdPT5jq3o262DOQ8zA6E1tlH2upmUc4Hlvrbx1pGYJuiiHl7O7rvVNI+l8HTVhd/q3Qc9vqimkNk5yiXsAug==}
     dev: true
 
   /cjs-module-lexer/1.2.2:
@@ -2444,8 +2444,8 @@ packages:
     resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
     dev: true
 
-  /electron-to-chromium/1.4.245:
-    resolution: {integrity: sha512-kUN8QXmqHAN8phxjF3QpHeX7CbXGXadSngx9r1O/S9jt+uC0O/vjPi/9+8/Mk3sKewLLMrjpBJZMfVpPCdkG3g==}
+  /electron-to-chromium/1.4.247:
+    resolution: {integrity: sha512-FLs6R4FQE+1JHM0hh3sfdxnYjKvJpHZyhQDjc2qFq/xFvmmRt/TATNToZhrcGUFzpF2XjeiuozrA8lI0PZmYYw==}
     dev: true
 
   /emittery/0.8.1:
@@ -2762,8 +2762,8 @@ packages:
     resolution: {integrity: sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==}
     dev: true
 
-  /fast-glob/3.2.11:
-    resolution: {integrity: sha512-xrO3+1bxSo3ZVHAnqzyuewYT6aMFHRAd4Kcs92MAonjwQZLsK9d0SF1IyQ3k5PoirxTW0Oe/RqFgMQ6TcNE5Ew==}
+  /fast-glob/3.2.12:
+    resolution: {integrity: sha512-DVj4CQIYYow0BlaelwK1pHl5n5cRSJfM60UA0zK891sVInoPri2Ekj7+e1CT3/3qxXenpI+nBBmQAcJPJgaj4w==}
     engines: {node: '>=8.6.0'}
     dependencies:
       '@nodelib/fs.stat': 2.0.5
@@ -3631,7 +3631,7 @@ packages:
       '@jest/types': 27.5.1
       babel-jest: 27.5.1_@babel+core@7.19.0
       chalk: 4.1.2
-      ci-info: 3.3.2
+      ci-info: 3.4.0
       deepmerge: 4.2.2
       glob: 7.2.3
       graceful-fs: 4.2.10
@@ -4071,7 +4071,7 @@ packages:
       '@jest/types': 27.5.1
       '@types/node': 18.7.16
       chalk: 4.1.2
-      ci-info: 3.3.2
+      ci-info: 3.4.0
       graceful-fs: 4.2.10
       picomatch: 2.3.1
     dev: true
@@ -4083,7 +4083,7 @@ packages:
       '@jest/types': 29.0.2
       '@types/node': 18.7.16
       chalk: 4.1.2
-      ci-info: 3.3.2
+      ci-info: 3.4.0
       graceful-fs: 4.2.10
       picomatch: 2.3.1
     dev: true
